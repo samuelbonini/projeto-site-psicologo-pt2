@@ -1,0 +1,148 @@
+.horario-header {
+  background-color: #592500;
+  padding: 8px;
+}
+
+.span-header {
+  color: #FFF0BA;
+  font-family: "Marmelad", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  justify-content: end;
+  align-items: flex-start;
+}
+
+.header-menu {
+  background-color: #FFDC60;
+  display: flex;
+  justify-content: space-between;
+  padding: 6px;
+  padding-left: 30px;
+}
+
+.logo-header img {
+  height: 60px;
+  width: auto;
+}
+
+.icon-whats img {
+  padding-right: 5px;
+  justify-content: center;
+  align-items: center;
+  height:  1.1rem;
+  width:  1.1rem;
+}
+
+.header-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+}
+.header-buttons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFF0BA;
+  border: none;
+  padding: 5px 16px;
+  border-radius: 10px;
+  margin-right: 10px;
+  color: #592500;
+  font-family: "Markazi Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.4rem;
+}
+
+.botao-agende a {
+  color: #FFF0BA;
+  background-color: #592500;
+}
+
+.imagem-background {
+  background-image: url('imagens/wallpaper.png');
+  background-size: cover; /* Ajusta a imagem para cobrir toda a seção */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Evita que a imagem se repita */
+  height: 600px; /* Define a altura da seção, ajuste conforme necessário */
+  width: 100%; /* Faz com que a seção ocupe toda a largura da página */
+}
+
+.textos-imagem {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-left: 60px;
+}
+
+.textos-imagem h1 {
+  color: #FFDC60;
+  font-size: 2.2rem;
+  font-family: "Markazi Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: -10px;
+}
+
+.textos-imagem span {
+  color: #FFF0BA;
+  font-size: 0.7rem;
+  font-family: "Marmelad", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+
+}
+
+.textos-imagem h2 {
+  color: #FFF0BA;
+  font-size: 2.2rem;
+  font-family: "Markazi Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 0.9;
+  margin-top: 20px;
+}
+
+.textos-imagem p {
+  color: #FFF0BA;
+  font-size: 1rem;
+  font-family: "Marmelad", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  max-width: 420px;
+  margin-bottom: 10px;
+}
+
+.botao-index a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFF0BA;
+  border: none;
+  padding: 5px 16px;
+  max-width: 220px;
+  border-radius: 10px;
+  margin-right: 10px;
+  color: #592500;
+  font-family: "Markazi Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.4rem;
+}
+
+.botao-index a {
+  color: #FFF0BA;
+  background-color: #592500;
+}
+
+.botao-index img {
+  margin-right: 10px;
+  height: 1.4rem;
+  width: 1.4rem;
+}

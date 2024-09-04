@@ -1,0 +1,17 @@
+.identificar-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFF0BA; 
+}
+
+.identificar-titulo {
+  color: #592500;
+  font-family: "Markazi Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2rem;
+  margin: 10px;
+}
