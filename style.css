@@ -13,7 +13,7 @@
 }
 
 .header-menu {
-  background-color: #FFDC60;
+  background-color: #f8e18d;
   display: flex;
   justify-content: space-between;
   padding: 6px;
@@ -54,11 +54,15 @@
   font-weight: 400;
   font-style: normal;
   font-size: 1.4rem;
+  box-shadow: 1px 2px 5px #59250079
+
 }
 
 .botao-agende a {
   color: #FFF0BA;
   background-color: #592500;
+  box-shadow: 1px 2px 5px #59250079
+
 }
 
 .imagem-background {
@@ -66,8 +70,8 @@
   background-size: cover; /* Ajusta a imagem para cobrir toda a seção */
   background-position: center; /* Centraliza a imagem */
   background-repeat: no-repeat; /* Evita que a imagem se repita */
-  height: 600px; /* Define a altura da seção, ajuste conforme necessário */
-  width: 100%; /* Faz com que a seção ocupe toda a largura da página */
+  height: 600px; 
+  width: auto; 
 }
 
 .textos-imagem {
@@ -79,7 +83,7 @@
 }
 
 .textos-imagem h1 {
-  color: #FFDC60;
+  color: #f8e18d;
   font-size: 2.2rem;
   font-family: "Markazi Text", serif;
   font-optical-sizing: auto;
@@ -134,6 +138,8 @@
   font-weight: 400;
   font-style: normal;
   font-size: 1.4rem;
+  box-shadow: 1px 2px 5px #59250079
+
 }
 
 .botao-index a {
