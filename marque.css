@@ -2,7 +2,6 @@
   background-color: #f8e18d;
 }
 
-
 .container-marque h1 {
   display: flex;
   justify-content: center;
@@ -49,8 +48,22 @@
   padding-bottom: 30px;
 }
 
-
 .imagem-marque img {
-  width: 500px;
+  width: 400px;
   height: auto;
+}
+
+@media (max-width: 800px) {
+  .conteudo-marque {
+    flex-direction: column;
+    text-align: center;
+  }
+.imagem-marque img {
+  padding-top: 30px;
+}
+.botao-marque {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 }

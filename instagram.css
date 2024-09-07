@@ -1,0 +1,45 @@
+.container-instagram {
+  background-color: #f8e18d;
+}
+
+.conteudo-instagram {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-top: 50px;
+  flex-wrap: wrap;
+}
+
+.botao-instagram {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.botao-instagram a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFF0BA;
+  border: none;
+  padding: 5px 16px;
+  max-width: 220px;
+  border-radius: 10px;
+  margin-right: 10px;
+  color: #592500;
+  font-family: "Markazi Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.4rem;
+  box-shadow: 1px 2px 5px #59250079
+}
+
+
+.botao-instagram img {
+  margin-right: 10px;
+  height: 1.4rem;
+  width: 1.4rem;
+}

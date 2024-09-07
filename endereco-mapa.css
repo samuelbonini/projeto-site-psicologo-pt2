@@ -18,7 +18,7 @@
 }
 
 .mapa iframe {
-  width: 500px;
+  width: 400px;
   height: 300px;
   border-radius: 10px;
   box-shadow: 1px 2px 5px #59250079
@@ -53,6 +53,7 @@ font-weight: 400;
 font-style: normal;
 font-size: 1.4rem;
 margin-bottom: 10px;
+text-align: center;
 }
 
 .textos-endereco h2 {
@@ -72,23 +73,9 @@ margin-bottom: 10px;
     font-style: italic;
     font-size: 1rem;
 margin-bottom: 20px;
-
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-.botoes-marque {
+.botoes-endereco {
   display: flex;
   justify-content: flex-start; 
   gap: 10px; 
@@ -109,7 +96,16 @@ margin-bottom: 20px;
   font-style: normal;
   font-size: 1.4rem;
   box-shadow: 1px 2px 5px #59250079
-  
 }
 
-
+@media (max-width: 900px) {
+  .conteudo-endereco {
+  flex-direction: column;
+  }
+  .mapa {
+  padding-top: 30px;
+  }
+  .textos-endereco h1 {
+    margin-top: -30px;
+  }
+}

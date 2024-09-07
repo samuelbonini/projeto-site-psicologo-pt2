@@ -93,9 +93,11 @@ font-style: normal;
 font-size: 2rem;
 }
 
-.background-texto-ajuda {
+.ajudar-container {
   background-color: #592500;
-  width: 100%;
+}
+
+.background-texto-ajuda {
   display: flex;
   justify-content: center;
   align-items: center;
