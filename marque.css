@@ -57,7 +57,9 @@
   .conteudo-marque {
     flex-direction: column;
     text-align: center;
+      padding: 0px 60px 60px 60px;
   }
+
 .imagem-marque img {
   padding-top: 30px;
 }
@@ -66,4 +68,27 @@
   justify-content: center;
   align-items: center;
 }
+.textos-marque {
+  max-width: 600px;
+  margin-right: 0px;
+}
+}
+
+@media (max-width: 500px) {
+  .container-marque h1 {
+    font-size: 1.4rem;
+  }
+  .textos-marque h2 {
+    font-size: 1.2rem;
+  }
+  .textos-marque p {
+    font-size: 1em;
+  }
+  .imagem-marque img {
+    width: 260px;
+    height: auto;
+  }
+  .conteudo-marque {
+    padding: 0px 30px 30px 30px;
+  }
 }

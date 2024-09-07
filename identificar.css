@@ -114,3 +114,104 @@ font-style: normal;
 font-size: 1.4rem;
 max-width: 600px;
 }
+
+@media (max-width: 730px) {
+  .lista-identificar-1 {
+    max-width: 400px;
+  }
+  .identificar-titulo {
+    font-size: 1.6rem;
+  }
+  
+  .lista-identificar-1 {
+    width: 500px;
+  }
+  
+  .lista-identificar-1 li {
+    font-size: 1.2rem;
+  }
+  
+  .lista-identificar-1 li span {
+    font-size: 0.8rem;
+  }
+  /* LISTA 2 */
+  .lista-identificar-2 {
+    max-width: 400px;
+  }
+  .identificar-titulo2 {
+    font-size: 1.6rem;
+  }
+  
+  .lista-identificar-2 {
+    width: 500px;
+  }
+  
+  .lista-identificar-2 li {
+    font-size: 1.2rem;
+  }
+  
+  .lista-identificar-2 li span {
+    font-size: 0.8rem;
+  }
+  .background-titulo-ajuda h1 {
+font-size: 1.6rem;
+  }
+.background-texto-ajuda p {
+  font-size: 1.2rem;
+}
+.background-texto-ajuda {
+  padding: 20px;
+}
+}
+
+@media (max-width: 500px) {
+  .lista-identificar-1 {
+    max-width: 300px;
+  }
+  .identificar-titulo {
+    font-size: 1.2rem;
+  }
+  
+  .lista-identificar-1 {
+    width: 300px;
+  padding: 10px;
+  }
+  
+  .lista-identificar-1 li {
+    font-size: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .lista-identificar-1 li span {
+    font-size: 0.6rem;
+  }
+  /* LISTA 2 */
+  .lista-identificar-2 {
+    max-width: 300px;
+  padding: 10px;
+  }
+  .identificar-titulo2 {
+    font-size: 1.2rem;
+  }
+  
+  .lista-identificar-2 {
+    width: 300px;
+  }
+  
+  .lista-identificar-2 li {
+    font-size: 1rem;
+  }
+  
+  .lista-identificar-2 li span {
+    font-size: 0.6rem;
+  }
+  .background-titulo-ajuda h1 {
+    font-size: 1.2rem;
+      }
+    .background-texto-ajuda p {
+      font-size: 1rem;
+    }
+    .background-texto-ajuda {
+      padding: 10px;
+    }
+}

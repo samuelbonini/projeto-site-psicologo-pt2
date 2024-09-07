@@ -7,7 +7,7 @@
   justify-content: center;
   align-items: center;
   gap: 30px;
-  padding-top: 50px;
+  padding: 50px;
   flex-wrap: wrap;
 }
 
@@ -15,7 +15,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding-bottom: 30px;
 }
 
 .botao-instagram a {
@@ -37,9 +37,43 @@
   box-shadow: 1px 2px 5px #59250079
 }
 
-
 .botao-instagram img {
   margin-right: 10px;
   height: 1.4rem;
   width: 1.4rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8e18d;
+}
+
+footer p {
+  font-family: "Markazi Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  color: #592500;
+}
+
+footer a {
+  font-family: "Markazi Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+  color: #592500;
+}
+
+@media (max-width: 500px) {
+
+  .conteudo-instagram img {
+    width: 220px;
+    height: auto;
+    gap: 30px;
+  }
+
 }

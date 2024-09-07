@@ -105,7 +105,43 @@ margin-bottom: 20px;
   .mapa {
   padding-top: 30px;
   }
+  .mapa iframe {
+    width: 440px;
+    height: 300px;
+  }
   .textos-endereco h1 {
     margin-top: -30px;
   }
+  .textos-endereco {
+    padding-right: 0px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container-endereco {
+    padding: 40px;
+  }  
+
+  .textos-endereco h1 {
+    font-size: 1.4rem;
+    margin-bottom: 6px;
+  }
+  
+  .textos-endereco p {
+  font-size: 1rem;
+  margin-bottom: 6px;
+  }
+  
+  .textos-endereco h2 {
+    font-size: 1.2rem;
+    }
+    
+    .textos-endereco span {
+      font-size: 1rem;
+  margin-bottom: 20px;
+      }
+      .mapa iframe {
+        width: 300px;
+        height: 220px;
+      }
 }
