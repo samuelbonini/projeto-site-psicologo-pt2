@@ -69,11 +69,9 @@ footer a {
 }
 
 @media (max-width: 500px) {
-
   .conteudo-instagram img {
     width: 220px;
     height: auto;
     gap: 30px;
   }
-
 }
