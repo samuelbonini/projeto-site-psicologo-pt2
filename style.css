@@ -58,16 +58,29 @@
   font-weight: 400;
   font-style: normal;
   font-size: 1.4rem;
-  box-shadow: 1px 2px 5px #5925001a
-
+  box-shadow: 1px 2px 5px #5925001a;
+  transition: transform 0.6s ease, background-color 0.3s ease; /* Transição suave para expansão e cores */
 }
 
 .botao-agende a {
   color: #FFF0BA;
   background-color: #592500;
-  box-shadow: 1px 2px 5px #59250079
-
+  box-shadow: 1px 2px 5px #59250079;
+  transition: transform 0.6s ease, background-color 0.3s ease; /* Transição suave para expansão e cores */
 }
+
+.header-buttons a:hover {
+  background-color: #592500; /* Cor de fundo ao passar o mouse */
+  color: #FFF0BA; /* Cor do texto ao passar o mouse */
+  transform: scale(1.05); /* Expande o elemento para 110% do seu tamanho original */
+}
+
+.botao-agende a:hover {
+  background-color: #FFF0BA; /* Cor de fundo ao passar o mouse */
+  color: #592500; /* Cor do texto ao passar o mouse */
+  transform: scale(1.05); /* Expande o elemento para 110% do seu tamanho original */
+}
+
 
 input {
   display: none;
@@ -166,6 +179,7 @@ input:checked + header label div:nth-child(2) {
   background-repeat: no-repeat; /* Evita que a imagem se repita */
   height: 600px; 
   width: auto; 
+  position: relative;
 }
 
 .textos-imagem {
@@ -176,6 +190,14 @@ input:checked + header label div:nth-child(2) {
   padding-left: 60px;
 }
 
+.textos-imagem h1,
+.textos-imagem span,
+.textos-imagem h2,
+.textos-imagem p {
+  opacity: 0;
+  animation: slide-in-left 1s forwards; /* Animação de entrada da esquerda para a direita */
+}
+
 .textos-imagem h1 {
   color: #f8e18d;
   font-size: 2.2rem;
@@ -184,6 +206,7 @@ input:checked + header label div:nth-child(2) {
   font-weight: 400;
   font-style: normal;
   margin-bottom: -10px;
+  animation-delay: 0.2s;
 }
 
 .textos-imagem span {
@@ -192,7 +215,7 @@ input:checked + header label div:nth-child(2) {
   font-family: "Marmelad", sans-serif;
   font-weight: 400;
   font-style: italic;
-
+  animation-delay: 0.4s;
 }
 
 .textos-imagem h2 {
@@ -204,6 +227,7 @@ input:checked + header label div:nth-child(2) {
   font-style: normal;
   line-height: 0.9;
   margin-top: 20px;
+  animation-delay: 0.6s;
 }
 
 .textos-imagem p {
@@ -214,37 +238,83 @@ input:checked + header label div:nth-child(2) {
   font-style: normal;
   max-width: 420px;
   margin-bottom: 20px;
+  animation-delay: 0.8s;
+}
+
+.botao-index {
+  opacity: 0;
+  transform: translateY(50px);
+  animation: rise-up 1s forwards 1.2s; /* Animação de surgimento do fundo */
 }
 
 .botao-index a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #FFF0BA;
+  background-color: #592500;
   border: none;
   padding: 5px 16px;
   max-width: 220px;
   border-radius: 10px;
   margin-right: 10px;
-  color: #592500;
+  color: #FFF0BA;
   font-family: "Markazi Text", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   font-size: 1.4rem;
-  box-shadow: 1px 2px 5px #59250079
+  box-shadow: 1px 2px 5px #59250079;
+  transition: transform 0.6s ease, background-color 0.3s ease; /* Transição suave para expansão e cores */
 }
 
-.botao-index a {
-  color: #FFF0BA;
-  background-color: #592500;
-}
 
 .botao-index img {
   margin-right: 10px;
   height: 1.4rem;
   width: 1.4rem;
 }
+
+.botao-index a:hover {
+  background-color: #FFF0BA; /* Cor de fundo ao passar o mouse */
+  color: #592500; /* Cor do texto ao passar o mouse */
+  transform: scale(1.05); /* Expande o elemento para 110% do seu tamanho original */
+}
+
+/* ANIMACOES */ 
+
+/* Animações */
+
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes rise-up {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* FIM ANIMACAO */
 
 @media (max-width: 530px) {
   .textos-imagem {

@@ -34,7 +34,14 @@
   font-weight: 400;
   font-style: normal;
   font-size: 1.4rem;
-  box-shadow: 1px 2px 5px #59250079
+  box-shadow: 1px 2px 5px #59250079;
+  transition: transform 0.6s ease, background-color 0.3s ease; /* Transição suave para expansão e cores */
+}
+
+.botao-instagram a:hover {
+  background-color: #f8e18d; /* Cor de fundo ao passar o mouse */
+  color: #592500; /* Cor do texto ao passar o mouse */
+  transform: scale(1.05); /* Expande o elemento para 110% do seu tamanho original */
 }
 
 .botao-instagram img {
