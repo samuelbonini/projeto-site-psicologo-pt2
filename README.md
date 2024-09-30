@@ -1,2 +1,2 @@
-# projeto-site-psicologo-pt2
+# Site-Psicologo-2
  Site exemplar para psicologo(a)s
