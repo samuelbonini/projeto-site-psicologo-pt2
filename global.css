@@ -4,6 +4,7 @@
 @import url(marque.css);
 @import url(endereco-mapa.css);
 @import url(instagram.css);
+@import url(formulario.css);
 
 * {
   padding: 0;

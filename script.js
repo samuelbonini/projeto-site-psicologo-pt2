@@ -22,3 +22,5 @@ document.addEventListener("DOMContentLoaded", function() {
     title.style.animation = 'typing 4s steps(30, end), blink-caret 0.75s step-end infinite';
   }, 500); // Inicia a animação de escrita após 500ms
 });
+
+

@@ -15,7 +15,7 @@
 
   <title>Seu Nome - Psicologa(o)</title>
   <link rel="stylesheet" href="global.css">
-  <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="imagens/favicon.svg" type="image/x-icon">
 </head>
 
 <body>
@@ -27,7 +27,7 @@
   </div>
   
   <!-- MODO MOBILE -->
-<input type="checkbox" id="menu">
+<input type="checkbox" id="menu" class="input-header">
 
 
   <header>
@@ -46,7 +46,7 @@
           <a href="index.html">Início</a>
           <a href="sobre.html">Sobre</a>
           <a href="#" class="botao-agendar-header">
-            <img src="imagens/whats.svg" alt="whats">Marque sua sessão
+            <img src="imagens/whats.svg" alt="whats">Agende sua sessão
           </a>
         </nav>
 
@@ -105,7 +105,7 @@
 
     <section class="container-marque">
 
-        <h1>Marque sua sessão</h1>
+        <h1>Agende sua sessão</h1>
         <div class="conteudo-marque fade-in-section">
 
         <div class="textos-marque">
@@ -122,6 +122,26 @@
 
       </div>
     </section>
+
+<section class="formulario">
+  <div class="conteudo-formulario"> 
+    <h2>Contato</h2>
+    <form action="https://api.staticforms.xyz/submit" method="post">
+      <label>Nome</label>
+      <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
+      <label>Telefone/whats</label>
+      <input type="number" name="phone" placeholder="+55 88 98888-8888" autocomplete="off" required>
+      <label>Email</label>
+      <input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required>
+      <label>Mensagem</label>
+      <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+      <input type="hidden" name="accessKey" value="691c0d5b-de6c-4e54-bd74-36b3f7311cee">
+      <input type="hidden" name="redirectTo" value="http://127.0.0.1:5501/obrigado.html">
+      <input type="text" name="honeypot" style="display: none;">
+    </form>
+  </div>
+</section>
 
     <section class="container-endereco">
       <div class="conteudo-endereco">
