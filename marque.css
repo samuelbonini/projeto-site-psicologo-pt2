@@ -12,7 +12,7 @@
   font-weight: 800;
   font-style: normal;
   font-size: 2.2rem;
-  padding: 10px;
+  padding: 20px;
   text-shadow:1px 2px 4px #59250085;
 }
 
@@ -20,7 +20,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px 60px 60px 60px;
+  padding: 0px 60px 60px 60px;
 }
 
 .textos-marque {
@@ -46,6 +46,7 @@
   font-size: 1.4rem;
   line-height: 1;
   padding-bottom: 30px;
+  max-width: 460px;
 }
 
 .imagem-marque img {
@@ -53,16 +54,29 @@
   height: auto;
 }
 
-@media (max-width: 800px) {
+.img-agende {
+  width: auto;
+  height: 300px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1040px) {
   .conteudo-marque {
     flex-direction: column;
-    text-align: center;
-      padding: 0px 60px 60px 60px;
   }
 
-.imagem-marque img {
-  padding-top: 30px;
-}
+  .textos-marque h2 {
+    text-align: center;
+  }
+
+  .textos-marque p {
+text-align: center;
+  }
+
+ .conteudo-formulario {
+  margin-top: 30px;
+ }
+
 .botao-marque {
   display: flex;
   justify-content: center;
@@ -87,8 +101,20 @@
   .imagem-marque img {
     width: 260px;
     height: auto;
+    margin-top: 30px;
   }
   .conteudo-marque {
     padding: 0px 30px 30px 30px;
+  }
+  .container-img-agende{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .img-agende {
+    width: 300px;
+   height: auto;
   }
 }

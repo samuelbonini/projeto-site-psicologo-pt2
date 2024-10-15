@@ -141,7 +141,7 @@ label div:nth-child(3) {
 }
 
 input:checked + header nav {
-  height: 36vh;
+  height: 26vh;
     }
 
     input:checked + header label div:nth-child(1) {

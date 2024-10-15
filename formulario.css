@@ -2,8 +2,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #592500;
-    padding: 60px;
 }
 
 .conteudo-formulario {
@@ -11,15 +9,15 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 30px 45px;
-    background: #f8e18d;
-    width: 500px;
+    padding: 20px 25px;
+    background: #592500;
+    width: 400px;
     box-shadow: #fff0ba33 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 .formulario h2 {
-    font-size: 2rem;
-    color: #592500;
+    font-size: 1.4rem;
+    color: #f8e18d;
     font-family: "Kaisei Tokumin", serif;
     font-weight: 800;
     font-style: normal;
@@ -31,9 +29,14 @@
     width: 100%;
 }
 
+textarea {
+    height: 80px;
+}
+
+
 .formulario form label {
     font-size: 1rem;
-    color: #592500;
+    color: #f8e18d;
     font-family: "Kaisei Tokumin", serif;
     font-weight: 600;
     font-style: normal;
@@ -41,12 +44,13 @@
 }
 
 .formulario form input {
-    padding: 15px;
+    padding: 10px;
     outline: none;
     border: 0;
     margin-bottom: 20px;
     font-size: 0.8rem;
     transition: all 0.5s;
+    height: ;
 }
 
 .formulario form input:focus {
@@ -67,23 +71,22 @@ border-radius: 16px;
 }
 
 .formulario form button {
-    padding: 15px;
+    padding: 10px;
     cursor: pointer;
     background: transparent;
-    border: 2px solid #592500;
-    font-size: 1rem;
-    color: #592500;
+    border: 2px solid #f8e18d;
+    font-size: 1.2rem;
+    color: #f8e18d;
     font-family: "Markazi Text", serif;
-
     font-weight: 600;
     font-style: normal;
     transition: all 0.6s;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .formulario form button:hover {
-background: #592500;
-color: #FFF0BA;
+background: #f8e18d;
+color: #592500;
 border-radius: 16px;
 }
 
@@ -134,5 +137,17 @@ flex-direction: column;
     border-radius: 16px;
 }
 
+@media (max-width: 500px) {
+    .conteudo-formulario {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px 25px;
+        background: #592500;
+        width: 240px;
+        box-shadow: #fff0ba33 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    }
+}
 
 
